@@ -43,3 +43,110 @@
     border-radius: 50%;
     border: 2px solid rgb(116, 128, 165);
 }
+.post{
+    margin: 2rem 0;
+    border: 1px solid #999;
+    
+
+}
+.post_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    
+
+}
+.post_header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: .5rem;
+
+}
+.post_user_detail{
+    display: flex;
+
+}
+
+.post_body img{
+    width: 100%;
+    height: 500px;
+    
+
+}
+.post_bottom{
+    padding: .4rem 1rem;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+
+}
+.likeBtn svg{
+    margin-right: 1rem;
+}
+.comment_view{
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+.comment_view1{
+    display: flex;
+    
+}
+.comment_view1 img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: .5rem;
+
+}
+.comment_view span{
+    font-weight: bolder;
+
+}
+.gray{
+    color: #999;
+    font-weight: 100;
+    
+}
+.each_comment{
+    display: flex;
+    justify-content: space-between;
+}
+ small{
+    color: #999;
+    font-size: 10px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    border-top: 1px solid #999;
+    
+}
+
+.Emoji{
+    flex: 1;
+}
+.comment_line{
+    flex: 5;
+}
+.comment input{
+    flex: 2;
+    width: 28rem;
+    border: 0;
+   margin-left: 1rem;
+   height: 20px;
+    
+}
+.comment button{
+    border: 0;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    color: rgb(62, 62, 245);
+    font-weight: bold;
+   
+}
