@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Roboto,Arial, Helvetica , sans-serif;
+}
+.home_container{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    max-width: 935px;
+
+}
+.post_section{
+    padding: 2rem;
+    
+    height: 84px;
+   
+    
+    
+
+}
+.status_list{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #999;
+    padding: 1rem 1rem;
+    border-radius: 3px;
+    background-color: white;
+    overflow: hidden;
+
+
+}
+.status_user{
+    width: 50px;
+    margin-right: 1.5rem;
+    font-size: 12px;
+  
+
+}
+.status_user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(116, 128, 165);
+}
