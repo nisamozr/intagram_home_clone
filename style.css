@@ -75,11 +75,12 @@ header{
 .status_list{
     display: flex;
     justify-content: flex-start;
-    border: 1px solid #999;
+    border: 1px solid rgb(160, 158, 158);
     padding: 1rem 1rem;
     border-radius: 3px;
     background-color: white;
     overflow: scroll;
+    height: 100px;
     
     
 
@@ -94,11 +95,19 @@ header{
     -ms-overflow-style: none;  
     scrollbar-width: none; 
   } 
+  .status_user div{
+    background: rgb(0,15,36);
+    background: linear-gradient(135deg, rgba(0,15,36,0.6530987394957983) 0%, rgba(31,9,121,1) 20%, rgba(230,250,30,0.8379726890756303) 34%, rgba(255,0,159,0.8239670868347339) 100%);
+    border-radius: 50%;
+
+      
+  }
 .status_user{
     width: 50px;
     margin-right: 1.5rem;
     font-size: 12px;
     cursor: pointer;
+   
   
 
 }
@@ -106,7 +115,7 @@ header{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid rgb(116, 128, 165);
+    border: 3px solid whitesmoke;
 }
 .post{
     margin: 2rem 0;
@@ -344,7 +353,14 @@ header{
     }
     
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px){
+    .home_container{
+        padding:20px 10px;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 600px) {
    
     .friends{
         display: none;
@@ -365,28 +381,7 @@ header{
         padding: 0;
     }
 
-    .status_list{
-        display: flex;
-        justify-content: flex-start;
-        border: .5px solid #999;
-        padding: 1rem 1rem;
-        border-radius: 3px;
-        background-color: white;
-        overflow: scroll;
-
-    }
-    .status_user{
-        width: 50px;
-        margin-right: 1.5rem;
-        font-size: 12px;
-        cursor: pointer;
-    }
-    .status_user img{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 2px solid rgb(116, 128, 165);
-    }
+   
     .post{
         margin: 0 0;
         border: 0;
